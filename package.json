@@ -1,0 +1,37 @@
+{
+  "name": "augmented-pivot-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "mkdir dist && cp ./index.html ./dist/",
+    "dev": "webpack-dev-server --config ./config/webpack.config.js",
+    "build": "tsc -p ./config/tsconfig.json"
+  },
+  "keywords": [
+    "augmented-analytics",
+    "pivot-table",
+    "pivot-chart"
+  ],
+  "author": {
+    "email": "2700001151@qq.com",
+    "name": "Observed Observer"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pivot-chart": "0.1.7",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.13.1",
+    "visual-insights": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
