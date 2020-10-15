@@ -1,12 +1,12 @@
 {
-  "name": "augmented-pivot-table",
-  "version": "1.0.0",
+  "name": "@kanaries/augmented-pivot-table",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "init": "mkdir dist && cp ./index.html ./dist/",
     "dev": "webpack-dev-server --config ./config/webpack.config.js",
-    "build": "tsc -p ./config/tsconfig.json"
+    "build": "tsc -p ./config/tsconfig.build.json"
   },
   "keywords": [
     "augmented-analytics",

@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: path.resolve(__dirname, "../src/main.tsx"),
+  entry: path.resolve(__dirname, "../demo/main.tsx"),
   devtool: "inline-source-map",
   module: {
     rules: [
@@ -11,7 +11,7 @@ module.exports = {
           {
             loader: "ts-loader",
             options: {
-              configFile: path.resolve(__dirname, "./tsconfig.json"),
+              configFile: path.resolve(__dirname, "./tsconfig.dev.json"),
             },
           },
         ],
